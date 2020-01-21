@@ -19,6 +19,9 @@ cd dbpedia_graph
 ```
 - You should see logs indicating the backend server running at `http://localhost:64210` and the frontend server running at `http://localhost:5000`
 
+## Gotchas
+- Every restart deletes the existing embedded database, and the dataset needs to be re-uploaded.
+
 
 ## License
 
