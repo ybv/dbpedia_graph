@@ -6,7 +6,7 @@
 
 ## What this project does
 - Exposes an inerface for adding single/ multiple person <a href="http://downloads.dbpedia.org/preview.php?file=2016-10_sl_core-i18n_sl_en_sl_persondata_en.ttl.bz2">data</a> triples into <a href="https://github.com/cayleygraph/cayley" target="_blank">cayley</a>
-- Exposes an interface to search for indexed person data by name, andlookup other persons by location
+- Exposes an interface to search for indexed person data by name, and lookup other persons by location
 
 
 ## Installation 
