@@ -1,4 +1,4 @@
-<a href="https://wiki.dbpedia.org/downloads-2016-10"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F73%2FDBpediaLogo.svg%2F1200px-DBpediaLogo.svg.png&f=1&nofb=1" title="dbpedia" alt="dbpedia"></a>
+<a href="https://wiki.dbpedia.org/downloads-2016-10"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F73%2FDBpediaLogo.svg%2F1200px-DBpediaLogo.svg.png&f=1&nofb=1" title="dbpedia" width="250" alt="dbpedia"></a>
 
 
 # DBpedia person explorer
@@ -18,6 +18,12 @@ cd dbpedia_graph
 ./init.sh
 ```
 - You should see logs indicating the backend server running at `http://localhost:64210` and the frontend server running at `http://localhost:5000`
+
+## Screenshots
+
+<img src="https://imgur.com/a/gENs1oD" title="dbpedia_explore" width="400" alt="Explore View">
+<img src="https://imgur.com/a/mGU7hl5" title="dbpedia_explore" width="400" alt="Detail View">
+
 
 ## Gotchas
 - Every restart deletes the existing embedded database, and the dataset needs to be re-uploaded.
