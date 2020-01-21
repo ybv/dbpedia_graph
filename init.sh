@@ -7,8 +7,8 @@ client_dir=$PWD/client
 docker stop dbepdia_server &>/dev/null || true 
 docker stop dbpedia_client &>/dev/null || true 
 
-docker rm dbepdia_server &>/dev/null || true
-docker rm dbpedia_client &>/dev/null || true
+docker rm -f dbepdia_server &>/dev/null || true
+docker rm -f dbpedia_client &>/dev/null || true
 
 # start backend server + db by pulling and running cayley image
 echo
