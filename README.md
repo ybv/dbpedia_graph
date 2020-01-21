@@ -21,8 +21,9 @@ cd dbpedia_graph
 
 ## Screenshots
 
-<img src="https://imgur.com/a/gENs1oD" title="dbpedia_explore" width="400" alt="Explore View">
-<img src="https://imgur.com/a/mGU7hl5" title="dbpedia_explore" width="400" alt="Detail View">
+<img src="https://i.imgur.com/j9Y6gED.png" title="dbpedia_explore" width="400" alt="Explore View">
+
+<img src="https://i.imgur.com/SWMZzPM.png" title="dbpedia_explore" width="400" alt="Detail View">
 
 
 ## Gotchas
