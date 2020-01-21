@@ -13,4 +13,12 @@ RUN npm install --silent
 RUN npm install react-scripts@3.0.1 -g --silent
 
 # start app
-CMD ["npm", "start"]
+CMD ["npm", "run", "build"]
+
+
+FROM node:12.2.0-alpine
+WORKDIR /app
+ENV PATH /app/node_modules/.bin:$PATH
+RUN npm install -g serve
+EXPOSE 5000
+CMD ["serve", "-s", "build"]
